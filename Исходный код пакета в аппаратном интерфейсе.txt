@@ -1,0 +1,23 @@
+06121001A40102000000000F000A5619050050
+
+06 12 10 — Class, ID & Length
+01 — disableEKF
+A4 — actionFlags: [164 decimal, 10100100 binary]
+     1 — dir,
+     0 — setTemp,
+     1 — nomGyro,
+     0 — nomTacho,
+     1 — clCalib,
+     0 — clTab
+01 — configFlags: [01 binary]
+     0 — useSerWt,
+     1 — pulsesPerM
+02 — inverseFlags: [10 binary]
+     1 — invGyro,
+     0 — invDir
+00 00 00 00 — 4 empty reserved bytes, set to 0
+0F 00 — nomPPDist
+0A 56 — nomZero
+19 — nomSens
+05 — rmsTemp
+00 50 — tempUpdate
